@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import HeaderClient from '../../components/client/header/HeaderClient'
+import FooterClient from '../../components/client/footer/FooterClient'
 
 const LayoutClient = () => {
     return (
@@ -11,6 +12,7 @@ const LayoutClient = () => {
                 <main>
                     <Outlet />
                 </main>
+                <FooterClient />
             </div>
         </div>
     )

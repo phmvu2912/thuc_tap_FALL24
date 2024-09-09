@@ -1,0 +1,75 @@
+footer {
+    color: #fff;
+    position: relative;
+
+    .top {
+        background-color: #4A69E2;
+        // position: absolute;
+        // width: 100%;
+
+        .left,
+        .right {
+            flex: 1;
+        }
+
+        .left {
+            .heading {
+                font-size: 48px;
+                font-weight: 700;
+            }
+
+            form {
+                input {
+                    padding: 6px 12px;
+                    border-radius: 10px;
+                    outline: none;
+                    border: 1px solid #fff;
+                    color: #232321;
+                }
+
+                button {
+                    background-color: #232321;
+                    padding: 6px 12px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .right {
+            img {}
+        }
+    }
+
+    .bot {
+        background-color: #232321;
+        position: absolute;
+        top: 80%;
+
+        .footCol {
+            flex: 1;
+
+            .heading {
+                font-weight: 700;
+                color: #FFA52F;
+
+            }
+
+            p {
+                color: #E7E7E3;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin: 10px 0;
+                }
+
+                :hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
