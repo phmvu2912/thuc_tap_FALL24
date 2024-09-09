@@ -1,0 +1,37 @@
+header {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .left, .center, .right {
+        flex: 1;
+    }
+
+    .left {
+        
+        font-weight: 700;
+        display: flex;
+    }
+
+    .center {
+        
+        img {
+            width: 150px;
+        }
+    }
+
+    .right {
+        .account {
+            border: 1px solid black;
+            border-radius: 9999px;
+            background-color: antiquewhite;
+            padding: 4px;
+            min-width: 35px;
+            min-height: 35px;
+            text-align: center;
+            
+        }
+    }
+}
